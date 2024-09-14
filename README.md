@@ -9,7 +9,18 @@
 
 ###### 01 - Como Instalar
 
+Faça o donwload do instaladr conforme versão do seu sistema operacioanal.(Windows, Linux, MacOS) no link a seguir: https://octave.org/
+
 ###### 02 - Primeiros Passos
+
+Comandos:
+
+    clc : limpa a tela
+
+
+Operadores:
+
+git add
 
 ###### 03 - Funções Elementares
 
