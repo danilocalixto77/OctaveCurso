@@ -148,9 +148,8 @@ Declaração:
     0   0   0   0   1
 
 
+###### 07 - Transposição e Referência em Arranjos
 
-
-# Avançar para aulas de utilização da IDE para códigos em algorímos.
 
 
 
