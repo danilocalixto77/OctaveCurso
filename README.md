@@ -150,7 +150,50 @@ Declaração:
 
 ###### 07 - Transposição e Referência em Arranjos
 
+***Salto entre aulas 8 e 21, para iniciar utilização da IDE e scripts*** 
+
+    Adicionando e Elimando Elementos de Arranjos #8
+
+    O que é uma String ? #9
+
+    Exercícios #10
+
+    Adição e Subtração em Arranjos #11
+
+    Multiplicação em Arranjos #12
+
+    Divisão em Arranjos #13
+
+    Operações Elementares em Arranjos #14
+
+    Funções Nativas para Arranjos #15
+
+    Gere Números Aleatórios com o Comando Rand #16
+
+    Gráficos 2D - Aprenda o comando Plot #17
+
+    Gráficos 2D - Comando Fplot #18
+
+    Múltiplos Gráficos #19
+
+    Construindo outros Gráficos 2D (pizza, hastes, barras...) #21
+
+ 
+###### 22 - O que são Scripts ou Rotinas? 
+
+[Vídeo Aula 22](https://www.youtube.com/watch?v=JpvWv5awdD4&list=PLUfT_zSB_TFTFhB87Boy3RTzB0CpcMJ4C&index=22)
+
+    Criação de script para calculo do volume do cone.
+
+    Exemplo de comandos:
+
+    input   : entrada de dados.
+    disp    : saida simples
+    fprintf : saida com mais recursos/interpolação/formatação e etc...
+
+    Formatações de casas decimais dentro das mensagens com interpolação
 
 
 
+###### 23
 
