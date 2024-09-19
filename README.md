@@ -195,5 +195,29 @@ Declaração:
 
 
 
-###### 23
+###### 23 Operadores Lógicos e Relacionais
+
+[Vídeo Aula 23](https://www.youtube.com/watch?v=cEpOeQu4wJQ&list=PLUfT_zSB_TFTFhB87Boy3RTzB0CpcMJ4C&index=23)
+
+**Operadores Relacionais**
+
+    < menor
+    > maior
+    <= menor ou igual
+    >= maior ou igual
+    == igual
+    ~= diferente
+
+
+**Operadores Lógicos**
+
+    & e
+    | ou
+    ~ negação
+
+
+###### 24 Como funcionam os comandos If - Elseif - Else #24    
+
+[Vídeo Aula 24](https://www.youtube.com/watch?v=ZtDPQNXgllE&list=PLUfT_zSB_TFTFhB87Boy3RTzB0CpcMJ4C&index=24)
+
 
