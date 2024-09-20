@@ -1,5 +1,5 @@
 # Curso de Programação em Octave
-### Canal Estudar Engenharia - Youtube
+### Canal: [Estudar Engenharia - Youtube](https://www.youtube.com/@EstudarEngenharia)
 
 ---
 
@@ -26,11 +26,11 @@ Operadores:
 
 Formatação casas decimais:
 
-    format shot     : 4 dígitos decimais
+    format short    : 4 dígitos decimais
     format long     : 14 dígitos decimais  
     format short e  : Notação científica com 4 dígitos decimais  
     format long e   : Notação científica com 15 dígitos decimais  
-    format shot g   : 5 dígitos decimais 
+    format short g  : 5 dígitos decimais 
     format long g   : 16 dígitos decimais  
     format bank     : 2 dígitos decimais
 
@@ -220,4 +220,21 @@ Declaração:
 
 [Vídeo Aula 24](https://www.youtube.com/watch?v=ZtDPQNXgllE&list=PLUfT_zSB_TFTFhB87Boy3RTzB0CpcMJ4C&index=24)
 
+*Exemplo de Algorítimo*
 
+    clear
+    clc
+    x = input('Digite um numero: ');
+    if x > 5
+    disp('O numero é maior que 5')
+    elseif x == 5
+    disp('O numero é igual a 5')
+    else
+    disp('O numero é menor que 5')
+    endif
+
+
+ ###### 25 Como funcionam os comandos Switch - Case - Otherwise
+
+ 
+[Vídeo Aula 25](https://www.youtube.com/watch?v=WXOeiqoC8ns&list=PLUfT_zSB_TFTFhB87Boy3RTzB0CpcMJ4C&index=25)
