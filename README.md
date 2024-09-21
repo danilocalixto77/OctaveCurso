@@ -1,15 +1,15 @@
 # Curso de Programação em Octave
-### Canal: [Estudar Engenharia - Youtube](https://www.youtube.com/@EstudarEngenharia)
+#### Canal: [Estudar Engenharia - Youtube](https://www.youtube.com/@EstudarEngenharia)
 
 ---
 
-###### 01 - Como Instalar
+## 01 - Como Instalar
 
 [Vídeo Aula 1](https://www.youtube.com/watch?v=MoKKDVAMjDQ&list=PLUfT_zSB_TFTFhB87Boy3RTzB0CpcMJ4C&index=1)
 
 Faça o donwload do instaladr conforme versão do seu sistema operacioanal.(Windows, Linux, MacOS) no link a seguir: https://octave.org/
 
-###### 02 - Primeiros Passos
+## 02 - Primeiros Passos
 
 Comandos:
 
@@ -34,7 +34,7 @@ Formatação casas decimais:
     format long g   : 16 dígitos decimais  
     format bank     : 2 dígitos decimais
 
-###### 03 - Funções Elementares
+## 03 - Funções Elementares
 
     sqrt(x)      : Raiz quadrada
     exp(x)       : Exponencial
@@ -63,7 +63,7 @@ Formatação casas decimais:
     rem(x,y)     : Resto de um número
     sing(x)      : Sinal, retorna o numero 1 e o seu sinal.
 
-###### 04 - Variáveis
+## 04 - Variáveis
 
 Declaração
 
@@ -96,11 +96,11 @@ Comandos para variáveis:
     whos        : Exibe uma lista de variáveis declaradas/ ativas na memória, com o respectivo tamanho em bytes e a classe de armazenamento.
 
 
-###### 05 - Exercícios
+## 05 - Exercícios
 
     ...
 
-###### 06 - Criando Arranjos (Vetores e Matrizes)
+## 06 - Criando Arranjos (Vetores e Matrizes)
 
 [Vídeo Aula 6](https://www.youtube.com/watch?v=BAANtvP1iTc&list=PLUfT_zSB_TFTFhB87Boy3RTzB0CpcMJ4C&index=7)
 
@@ -148,7 +148,7 @@ Declaração:
     0   0   0   0   1
 
 
-###### 07 - Transposição e Referência em Arranjos
+## 07 - Transposição e Referência em Arranjos
 
 ***Salto entre aulas 8 e 21, para iniciar utilização da IDE e scripts*** 
 
@@ -179,7 +179,7 @@ Declaração:
     Construindo outros Gráficos 2D (pizza, hastes, barras...) #21
 
  
-###### 22 - O que são Scripts ou Rotinas? 
+## 22 - O que são Scripts ou Rotinas? 
 
 [Vídeo Aula 22](https://www.youtube.com/watch?v=JpvWv5awdD4&list=PLUfT_zSB_TFTFhB87Boy3RTzB0CpcMJ4C&index=22)
 
@@ -194,8 +194,7 @@ Declaração:
     Formatações de casas decimais dentro das mensagens com interpolação
 
 
-
-###### 23 Operadores Lógicos e Relacionais
+## 23 Operadores Lógicos e Relacionais
 
 [Vídeo Aula 23](https://www.youtube.com/watch?v=cEpOeQu4wJQ&list=PLUfT_zSB_TFTFhB87Boy3RTzB0CpcMJ4C&index=23)
 
@@ -216,11 +215,11 @@ Declaração:
     ~ negação
 
 
-###### 24 Como funcionam os comandos If - Elseif - Else #24    
+## 24 Como funcionam os comandos If - Elseif - Else #24    
 
 [Vídeo Aula 24](https://www.youtube.com/watch?v=ZtDPQNXgllE&list=PLUfT_zSB_TFTFhB87Boy3RTzB0CpcMJ4C&index=24)
 
-*Exemplo de Algorítimo*
+*Algorítmo exemplo:*
 
     clear
     clc
@@ -234,7 +233,33 @@ Declaração:
     endif
 
 
- ###### 25 Como funcionam os comandos Switch - Case - Otherwise
-
+## 25 Como funcionam os comandos Switch - Case - Otherwise
  
 [Vídeo Aula 25](https://www.youtube.com/watch?v=WXOeiqoC8ns&list=PLUfT_zSB_TFTFhB87Boy3RTzB0CpcMJ4C&index=25)
+
+
+*Algorítmo exemplo:*
+
+clear
+clc
+x = input('Digire um numero de 1 a 4:');
+
+    switch x
+    case 1
+        disp('Digitou numero 1');
+    case 2
+        disp('Digitou numero 2');
+    case 3
+        disp('Digitou numero 3');
+    case 4
+        disp('Digitou numero 4');
+    otherwise
+        disp('Digitou num numero não classificado');
+    endswitch
+
+
+
+## 26 Loops - Como utilizar o comando For
+
+[Vídeo Aula 26](https://www.youtube.com/watch?v=nzWIzcVY_wk&list=PLUfT_zSB_TFTFhB87Boy3RTzB0CpcMJ4C&index=26)
+
