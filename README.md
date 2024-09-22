@@ -263,3 +263,13 @@ x = input('Digire um numero de 1 a 4:');
 
 [Vídeo Aula 26](https://www.youtube.com/watch?v=nzWIzcVY_wk&list=PLUfT_zSB_TFTFhB87Boy3RTzB0CpcMJ4C&index=26)
 
+
+*Algorítmo exemplo 1:*
+
+    clear
+    clc
+    #Iniciar no 1, salta de 1 em 1 até 10
+    for k=1:1:10
+        x=(k^2); #ponto-virgula suprime a impressão do resultado na tela do prompt
+        fprintf('O quadrado de %d é %d\n',k, x) #\n quebra linha
+    endfor
