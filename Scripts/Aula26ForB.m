@@ -1,8 +1,8 @@
 clear
 clc
-#Iniciar no 1, salta de 1(quando nao informa o incremento o default é 1, e irá até 100
 soma=0;
-for k=1:1:100
-  soma =
-  #fprintf('O quadrado de %d é %d\n',k, x) #\n quebra linha
+#Iniciar no 1, salta de 1(quando nao informa o incremento o default é 1, e irá
+for k=1:10
+  soma = (soma+k);
+  fprintf('A soma de %d mais %d\n',k, soma) #\n quebra linha
 endfor
