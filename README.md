@@ -286,4 +286,19 @@ x = input('Digire um numero de 1 a 4:');
     endfor
 
 
-## 27................
+## 27 Loops - Como utilizar o comando While 
+
+[Vídeo Aula 27](https://www.youtube.com/watch?v=SOoM0KEoMCo&list=PLUfT_zSB_TFTFhB87Boy3RTzB0CpcMJ4C&index=27)
+
+
+*Algorítmo exemplo 1:*
+
+
+    clear
+    clc
+    x=1;
+    n=input('Digite o valor desejado: ');
+    while x<=n
+        x=(2*x)
+    endwhile
+
