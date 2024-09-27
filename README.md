@@ -204,6 +204,76 @@ Declaração:
     Removendo coluna
     m=(:,1)=[]
 
+
+*Comandos 
+---
+length(v) Retorna o número de elementos do vetor
+
+v.
+
+>> v=[4 3 6 7];
+>> length(v)
+ans = 4
+
+size(A)
+
+Retorna um vetor linha [m, n], onde m e n
+representam a dimensão (m x n) da matriz
+
+A.
+
+>> A=[4 3 6 7;4 5 2 5; 3 4 1 6];
+>> size(A)
+ans =
+3 4
+
+reshape(A,m,n)
+
+Rearranja uma matriz A com r linhas e s
+colunas para m linhas e n colunas.
+r vezes s deve ser igual numericamente
+
+igual a m vezes n.
+
+A =
+4 3 6 7
+4 5 2 5
+3 4 1 6
+>> reshape(A,4,3)
+ans =
+4 5 1
+4 4 7
+3 6 5
+3 2 6
+
+diag(v)
+
+Quando v é um vetor, cria uma matriz
+quadrada contendo os elementos de v na
+
+diagonal principal.
+
+>> v=[3 9 1 2];
+>> diag(v)
+ans =
+Diagonal Matrix
+3 0 0 0
+0 9 0 0
+0 0 1 0
+0 0 0 2
+
+diag(A)
+
+Quando A é uma matriz, cria um vetor
+coluna a partir dos elementos na diagonal
+
+principal.
+
+---
+
+
+
+
 ***Salto entre aulas 8 e 21, para iniciar utilização da IDE e scripts*** 
 
     
