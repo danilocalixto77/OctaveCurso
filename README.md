@@ -150,9 +150,63 @@ Declaração:
 
 ## 07 - Transposição e Referência em Arranjos
 
+## 08 - Adicionando e Elimando Elementos de Arranjos
+
+*Adicionando em Vetores*
+
+    Declarando vetor
+    v=[2 4 6 9]
+
+    Adicionando na coluna 5
+
+    v(5) = 20
+
+    Adicionando em valores por faixa das posições 6 a 10
+
+    v(6:10)=[1 5 3 7]
+
+    Adicionando a uma posição superior ao tamanho atual
+
+    v(15)= 3
+
+    Neste caso adicionou o 3 na posição 15 e entre as posições 11 e 14 será preenchido com 0.
+
+
+*Adicionando em Matrizes*
+
+    Declarando matriz
+
+    m = [3 5 4; 7 9 1; 2 7 4]
+
+    Inserindo uma coluna
+
+    m(:,4)=[6 7 8]
+
+    Inserindo uma linha
+    
+    m(4,:)=[2 9 7 5]
+
+*Removendo do vetor*
+
+    v(5)=[]
+
+    Informa a posição e o cochete vazio, já é identificado para ser removido.
+
+    Removendo por faixa
+
+    v(6:9)=[]
+
+*Removendo da matriz*
+
+    Removendo linha
+    m=(3,:)=[]
+
+    Removendo coluna
+    m=(:,1)=[]
+
 ***Salto entre aulas 8 e 21, para iniciar utilização da IDE e scripts*** 
 
-    Adicionando e Elimando Elementos de Arranjos #8
+    
 
     O que é uma String ? #9
 
