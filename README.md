@@ -252,15 +252,45 @@ diagonal principal.
 diag(A) : Quando A é uma matriz, cria um vetor coluna a partir dos elementos na  diagonal principal.
 
 
-***Salto entre aulas 8 e 21, para iniciar utilização da IDE e scripts*** 
+## 09 - O que é uma String ?
+
+[Vídeo Aula 9](https://www.youtube.com/watch?v=GCgyIFWn1jI&list=PLUfT_zSB_TFTFhB87Boy3RTzB0CpcMJ4C&index=9)
+
+
+    x='Programa: '
+    x=Programa;
+
+**Concatenando**
+
+    >> x(11:16)='Octave'
+    x= Programa: Octave
+
+**Matriz de Sring**
+
+    >> info=char('Nome: ', 'Joao','Idade','22' )
+    info =
+        Nome:
+        Joao
+        Idade
+        22
+
+
+## 10 - Exercícios
 
     
+[Vídeo Aula 10](https://www.youtube.com/watch?v=mhNhdi0MUsQ&list=PLUfT_zSB_TFTFhB87Boy3RTzB0CpcMJ4C&index=10)
 
-    O que é uma String ? #9
 
-    Exercícios #10
+## 11 - Adição e Subtração em Arranjos
 
-    Adição e Subtração em Arranjos #11
+[Vídeo Aula 11](https://www.youtube.com/watch?v=LXx190fQuUY&list=PLUfT_zSB_TFTFhB87Boy3RTzB0CpcMJ4C&index=11)
+
+
+CONTINUAR DA AULA 11
+
+***Salto entre aulas 8 e 21, para iniciar utilização da IDE e scripts*** 
+   
+   
 
     Multiplicação em Arranjos #12
 
