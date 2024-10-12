@@ -289,9 +289,6 @@ diag(A) : Quando A é uma matriz, cria um vetor coluna a partir dos elementos na
 CONTINUAR DA AULA 11
 
 ***Salto entre aulas 8 e 21, para iniciar utilização da IDE e scripts*** 
-   
-   
-
     Multiplicação em Arranjos #12
 
     Divisão em Arranjos #13
